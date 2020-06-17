@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GAME</a>
+        <div class="nav">
+            <a class="navbar-brand" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="navbar-brand" href="https://twitter.com/luwie_zz">Twitter</a>
+            <a class="navbar-brand" href="https://github.com/echefulouis/Rock-Paper-Scissors">GitHub</a></div>
+      </nav>
+    <div class="container">
+        <h3>Challenge of Rock, Paper, Scissors</h3>
+        <div class="rps-box">
+            <button type="button" class="btn btn-outline-success" id="rock" onclick="rpsGame(this)">ROCK</button>
+            <button type="button" class="btn btn-outline-danger" id="paper" onclick="rpsGame(this)">PAPER</button>
+            <button type="button" class="btn btn-outline-warning" id="scissors" onclick="rpsGame(this)">SCISSORS</button>
+        </div>
+        <div id="rps-frontend">
+            
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-success " id="reload" onclick="reload()">Click to reload</button>
+        </div>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>

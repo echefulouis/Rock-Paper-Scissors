@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+}
+h3{
+    margin-top:20px;
+}
+.rps-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+#reload{
+    display:none;
+    text-align: center;
+    margin: 20px auto;
+}
